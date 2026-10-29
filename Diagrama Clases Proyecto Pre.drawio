@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="07eRWSb5nT_FB6aroQ04">
+    <mxGraphModel dx="866" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ux9L0drcSsUfTd4WTN48-6" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;ConexionBD&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- URL: String&lt;br&gt;- USER: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-PASSWORD: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ conectar(): Connection&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="190" x="300" y="-40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ux9L0drcSsUfTd4WTN48-14" edge="1" parent="1" source="Ux9L0drcSsUfTd4WTN48-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="Ux9L0drcSsUfTd4WTN48-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ux9L0drcSsUfTd4WTN48-7" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="RecomendadorServlet" vertex="1">
+          <mxGeometry height="52" width="140" x="325" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ux9L0drcSsUfTd4WTN48-8" parent="Ux9L0drcSsUfTd4WTN48-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ doPost(req, resp)&amp;nbsp;" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ux9L0drcSsUfTd4WTN48-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;usa&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Ux9L0drcSsUfTd4WTN48-20" edge="1" parent="1" source="Ux9L0drcSsUfTd4WTN48-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="Ux9L0drcSsUfTd4WTN48-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ux9L0drcSsUfTd4WTN48-15" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="GuardarInventarioServlet" vertex="1">
+          <mxGeometry height="52" width="140" x="80" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ux9L0drcSsUfTd4WTN48-16" parent="Ux9L0drcSsUfTd4WTN48-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ doPost(req, resp)&amp;nbsp;" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ux9L0drcSsUfTd4WTN48-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;usa JDBC&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="180" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Ux9L0drcSsUfTd4WTN48-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="(Base de Datos)" vertex="1">
+          <mxGeometry height="30" width="90" x="90" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Ux9L0drcSsUfTd4WTN48-27" edge="1" parent="1" source="Ux9L0drcSsUfTd4WTN48-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="Ux9L0drcSsUfTd4WTN48-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ux9L0drcSsUfTd4WTN48-21" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ObtenerAlimentosServlet" vertex="1">
+          <mxGeometry height="52" width="140" x="560" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ux9L0drcSsUfTd4WTN48-22" parent="Ux9L0drcSsUfTd4WTN48-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ doGet(req, resp)&amp;nbsp;" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ux9L0drcSsUfTd4WTN48-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;usa JDBC&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="690" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Ux9L0drcSsUfTd4WTN48-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="(Base de Datos)" vertex="1">
+          <mxGeometry height="30" width="90" x="580" y="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
