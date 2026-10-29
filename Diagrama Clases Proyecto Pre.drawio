@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="07eRWSb5nT_FB6aroQ04">
-    <mxGraphModel dx="1392" dy="1945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1935" dy="1786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -108,6 +108,39 @@
             <mxPoint x="784.5" y="540" as="sourcePoint" />
             <mxPoint x="784.5" y="460" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="F87pu0bD6mfiRlaJ5GIV-19" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Inventario" vertex="1">
+          <mxGeometry height="133" width="310" x="-30" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="F87pu0bD6mfiRlaJ5GIV-20" parent="F87pu0bD6mfiRlaJ5GIV-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- listaAlimentos: List&amp;lt;Alimento&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="310" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="F87pu0bD6mfiRlaJ5GIV-21" parent="F87pu0bD6mfiRlaJ5GIV-19" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="310" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="F87pu0bD6mfiRlaJ5GIV-22" parent="F87pu0bD6mfiRlaJ5GIV-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ agregarAlimento(a: Alimento)&lt;div&gt;+ eliminarAlimento(index: int)&lt;/div&gt;&lt;div&gt;+ mostrarInventario()&lt;/div&gt;&lt;div&gt;+ obtenerAlimentosUrgentes(): List&lt;/div&gt;" vertex="1">
+          <mxGeometry height="69" width="310" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="F87pu0bD6mfiRlaJ5GIV-23" edge="1" parent="1" style="endArrow=oval;dashed=1;endFill=0;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=page;startArrow=classicThin;startFill=1;dashPattern=12 12;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="110" y="500" as="sourcePoint" />
+            <mxPoint x="110" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F87pu0bD6mfiRlaJ5GIV-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1..*" vertex="1">
+          <mxGeometry height="30" width="100" x="100" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="F87pu0bD6mfiRlaJ5GIV-25" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&amp;nbsp;&lt;div&gt;Alimento&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="310" x="-30" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="F87pu0bD6mfiRlaJ5GIV-26" parent="F87pu0bD6mfiRlaJ5GIV-25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# id: int&lt;div&gt;# nombre: String&lt;/div&gt;&lt;div&gt;# categoria: String&lt;/div&gt;&lt;div&gt;# cantidad: float&lt;/div&gt;&lt;div&gt;# estadoActual: String&lt;/div&gt;&lt;div&gt;# unidadMedida: String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="310" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F87pu0bD6mfiRlaJ5GIV-27" parent="F87pu0bD6mfiRlaJ5GIV-25" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="310" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="F87pu0bD6mfiRlaJ5GIV-28" parent="F87pu0bD6mfiRlaJ5GIV-25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ mostrarInfo()&lt;div&gt;+ calcularPrioridad(): int &amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="310" y="148" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
